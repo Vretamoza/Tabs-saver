@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Administrador de Pestañas Inteligente",
+    "version": "1.0",
+    "description": "Agrupa, guarda y restaura pestañas relacionadas automáticamente.",
+    "permissions": ["tabs", "storage", "tabGroups", "windows"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Administrador de Pestañas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>Tab storage</h2>
+  <div style="display: flex; gap: 0.2rem">
+    <div>
+      <label for="tabsName">Nombre</label>
+      <input id="tabsName" type="text">
+    </div>
+    <button id="saveTabs">Guardar</button>
+  </div>
+  <div class="list-container">
+    <ul id="list">
+    </ul>
+  </div>
+</body>
+<script type="module" src="popup.js"></script>
+</html>
